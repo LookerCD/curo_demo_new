@@ -33,10 +33,8 @@
   # ----- Sets of fields for drilling ------
   sets:
     detail:
-    - id
-    - users.last_name
-    - users.first_name
+    - users.name
+    - users.email
     - users.id
     - order_items.count
-    - t1.count
 

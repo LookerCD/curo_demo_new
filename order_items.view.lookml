@@ -35,5 +35,5 @@
   - measure: count
     label: 'Order Items Count'
     type: count
-    drill_fields: [id, orders.id, inventory_items.id]
+    drill_fields: [orders.id, products.item_name, products.brand, products.category, products.retail_price]
 

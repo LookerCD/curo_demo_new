@@ -36,6 +36,7 @@
   - dimension: retail_price
     group_label: 'Product Information'
     type: number
+    value_format_name: usd
     sql: ${TABLE}.retail_price
 
   - dimension: sku
@@ -46,5 +47,5 @@
   - measure: count
     label: 'Products Count'
     type: count
-    drill_fields: [id, item_name, inventory_items.count]
+    drill_fields: [id, item_name, retail_price]
 

@@ -79,8 +79,9 @@
     
   - measure: average_age
     type: avg
+    value_format_name: decimal_2
     sql: ${age}
-    drill_fields: 
+    drill_fields: [age_tier, users.count]
 
 
   # ----- Sets of fields for drilling ------
